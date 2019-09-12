@@ -1,7 +1,7 @@
 #Note:
 #You can edit all the text to you harts content :D
 #Do not give two guis the same name it confuses the plugin
-#Lists cannot be added to you can only rename stuff
+#You can not add elements to lists, you can only edit them
 
 GUIS:
   AbydosGUI:
