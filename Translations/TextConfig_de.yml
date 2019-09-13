@@ -123,39 +123,39 @@ GUIS:
         Lore: '%fBearbeitet Gates'
       AbydosCartouche:
         Name: '%5Abydos Cartouche'
-        Lore: '%fListe aller bekannten Gates'
+        Lore: '%fListet alle bekannten Gates'
         
 PlayerMessages:
   FromGUI:
     AddressAssignGUI:
       Message1: '%2Gate Erstellt!'
       Message2: '%6Nutze den Kristal um %9das Gate %6mit einem %cDHD %6zu verbinden'
-      Message3: '%cHinweis: %fThe gate is allready in the network upon saving the gate data this gate will be permanent'
-      Message4: '%cNOTE: %fPermanent gates can be %cremoved %fby using the %6editor gui'
+      Message3: '%cHinweis: %fDas gate ist bereits im Netzwerk und ist Permanent sobald es gespeichert wurde'
+      Message4: '%cHinweis: %fPermanente Gates können in der %6BearbeitungsGUI %centfernt %fwerden'
     
     DHD_GUI:
-      Message1: '%cThis Gate is set to [Private]'
-      Message2: '%6To dial the gate use %athe buttons in the middle of the screen.%6 Each button will lock a specific symbol for the %adestination%6 address.'
-      Message3: '%6The gates address,%c you are currently using,%6 is beeing displayed in the DHD GUIs name'
-      Message4: '%6The gate can only be activated if and only if %call 7 symbols%6 of the destination gate have been locked in.'
-      Message5: '%6The Ancients were a powerfull race of gate builders. Maby one day they will return.'
-      Message6: '%cYou can not dial yourselfe!'
-      Message7_1: '%cAddress ['
-      Message7_2: '] not found!'
-      Message8: '%6The connection has been canceled'
-      Message9: '%cThe connection could not be canceled'
-      Message10: '%cThis Gate is set to [Private]'
-      Message11: '%cThe Gate you are trying to dial is currently unavailable!'
-      Message12: '%cThe Gates are not in the same network!'
+      Message1: '%cDieses Gate ist [Privat]'
+      Message2: '%6Nutze das Tastenfeld in der Mitte zum Wählen.%6 Jede Taste steht für ein Symbol der %aZiel-%6Adresse.'
+      Message3: '%6Die Adresse dieses Gates wird, in DHD_GUI Überschrift angezeigt'
+      Message4: '%6Das Gate kann nur Aktiert werden, wenn %calle 7 Symbole%6 der Ziel-Adresse eingegeben wurden.'
+      Message5: '%6Die Antiker waren eine Mächtige zivilation, weleche die Gates bauten. Möglicherweise werden sie eines Tages zurückkehren.'
+      Message6: '%cDu kannst dich nicht selbst anwählen!'
+      Message7_1: '%cAdresse ['
+      Message7_2: '] existiert nicht!'
+      Message8: '%6Die Verbindung wurde abgebrochen'
+      Message9: '%cDie Verbindung konnte nicht abgebrochen werden'
+      Message10: '%cDieses Gate ist [Private]'
+      Message11: '%cDas angewählte Gate ist derzeit nicht verfügbar!'
+      Message12: '%cDie Gates sind nicht im gelichen Netzwerk!'
       
     EditAllGatesGUI:
-      Message1: 'Gate List has been loaded!'
+      Message1: 'GateListe wurde geladen!'
       Message2_1: 'Gate: %6'
-      Message2_2: '%f has been repaird'
-      Message3: 'All Gates have been removed!'
-      Message4: 'They can be repaird by using %6Repair Gate%f in the EditGateGUI or %6Repair all Gates %f in the EditGateListGUI'    
-      Message5: 'All Gates connections have been cut!'
-      Message6: 'All Gates have been removed form the %6Abydos cartouche!'
+      Message2_2: '%f wurde repariert'
+      Message3: 'Alle Gates wurden entfernt!'
+      Message4: 'Du kannst sie mit der %6Repariere Gate%f Funktion der EearbeiteGateGUI oder %6Repariere alle Gates %f Funktion der BearbeiteGateListeGUI reparieren'    
+      Message5: 'Alle aktiven Gates Verbindungen wurden geschlossen!'
+      Message6: 'Alle Gates wurden aus der %6Abydos cartouche!%f entfernt'
       
     EditGateGUI:
       Message1: '%cThe selected gate could not be found!'
