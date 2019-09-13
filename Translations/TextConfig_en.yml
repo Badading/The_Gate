@@ -78,7 +78,7 @@ GUIS:
       Gate_Material: '%6Gate Material'
       Set_Gate_Material: '%6Set gate material'
       Ring_Material: '%6Ring Material'
-      Chevron_bottom_part: '%6Chevron bottom part'
+      Chevron_tip: '%6Chevron tip'
       Chevron_frame: '%6Chevron frame'
       Chevron_Light_off: '%6Chevron Light off'
       Chevron_Light_on: '%6Chevron Light on'
@@ -101,7 +101,7 @@ GUIS:
       Previous_Page: 'Previous Page'
    
   QuickDialGUI:
-    GUIName: '%5QuickDial'
+    GUIName: '%5QuickDialGUI'
     Items:
       GateObjects:
         Lore: 
@@ -113,7 +113,7 @@ GUIS:
       Previous_Page: 'Previous Page'      
     
   GateTools:
-    GUIName: '%5GateTools'
+    GUIName: '%5GateToolsGUI'
     Items:
       CreateTool:
         Name: '%5GateCreator_Tool'
