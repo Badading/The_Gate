@@ -153,7 +153,7 @@ PlayerMessages:
       Message2_1: 'Gate: %6'
       Message2_2: '%f has been repaird'
       Message3: 'All Gates have been removed!'
-      Message4: 'They can be repaird by using %6Repair Gate%f in the EditGateGUI or %6Repair all Gates %f in the EditGateListGUI'    
+      Message4: 'They can be repaired by using %6Repair Gate%f in the EditGateGUI or %6Repair all Gates %f in the EditGateListGUI'    
       Message5: 'All Gates connections have been cut!'
       Message6: 'All Gates have been removed form the %6Abydos cartouche!'
       
