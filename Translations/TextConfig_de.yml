@@ -130,7 +130,7 @@ PlayerMessages:
     AddressAssignGUI:
       Message1: '%2Gate Erstellt!'
       Message2: '%6Nutze den Kristal um %9das Gate %6mit einem %cDHD %6zu verbinden'
-      Message3: '%cHinweis: %fDas gate ist bereits im Netzwerk und ist Permanent sobald es gespeichert wurde'
+      Message3: '%cHinweis: %fWenn du das &cDHD &fverschieben willst, nutze das &cGateErstellungs_Tool &fnahe an einem Gate um dessen Kristall erneute zu bekommen.'
       Message4: '%cHinweis: %fPermanente Gates können in der %6BearbeitungsGUI %centfernt %fwerden'
     
     DHD_GUI:
@@ -172,10 +172,9 @@ PlayerMessages:
       Message7_1: 'Gate: %6'
       Message7_2: '%f ist jetzt [Privat]' 
       Message8_1: 'Gate: %6'
-      Message8_2: '%f ist jetzt [Öffentlich]' 
-      Message9: '%cDu musst an jedem Platz ein Item setzen, um zu Speichern' # <-- Obsolete
-      Message10_1: 'Gate: %6'
-      Message10_2: '%f wurde gespeichert'
+      Message8_2: '%f ist jetzt [Öffentlich]'
+      Message9_1: 'Gate: %6'
+      Message9_2: '%f wurde gespeichert'
      
     QuickDialGUI:
       Message1_1: '%cAdresse ['
