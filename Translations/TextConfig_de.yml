@@ -189,7 +189,7 @@ PlayerMessages:
     NoOwnership: '%cFinger weg ist nicht deins'
     ConfigReload: 'Config aktualisiert!'
     GateNear: '%cDas nächste Gate ist zu nah!'
-    GateAmmountCap: 'Du hast deine maximale Anzahl an Gates plaziert!'
+    GateAmmountCap: 'Du hast deine maximale Anzahl an Gates platziert!'
     LinkGate_1: '%6Gate %9'
     LinkGate_2: '%6 wurde mit dem DHD verbunden'
     GateNotFound_1: '%cDas Gate %6'
