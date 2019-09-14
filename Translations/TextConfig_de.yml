@@ -173,7 +173,7 @@ PlayerMessages:
       Message7_2: '%f ist jetzt [Privat]' 
       Message8_1: 'Gate: %6'
       Message8_2: '%f ist jetzt [Öffentlich]' 
-      Message9: '%cDu musst an jeden Platz ein Item setzen, um zu Speichern' # <-- Obsolete
+      Message9: '%cDu musst an jedem Platz ein Item setzen, um zu Speichern' # <-- Obsolete
       Message10_1: 'Gate: %6'
       Message10_2: '%f wurde gespeichert'
      
