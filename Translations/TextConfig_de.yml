@@ -180,8 +180,8 @@ PlayerMessages:
     QuickDialGUI:
       Message1_1: '%cAdresse ['
       Message1_2: '] existiert nicht!'
-      Message2: '%cDiese Gate ist [Privat]'
-      Message3: '%cDiese Gate ist bereits aktiv'
+      Message2: '%cDieses Gate ist [Privat]'
+      Message3: '%cDieses Gate ist bereits aktiv'
       Message4: 'Die Gates sind nicht im gleichen Netzwerk'
       
   GlobalText:
