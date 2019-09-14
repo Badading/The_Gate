@@ -1,0 +1,197 @@
+#Hinweis:
+#Du kannst alle texte nach Herzenslust bearbeiten :D
+#mehrere GUIs dürfen nie den gleichen Namen haben
+#Listen Eintäge können nur bearbeitet werden, nicht aber enfernt oder hinzugefügt
+
+GUIS:
+  AbydosGUI:
+    GUIName: '&5Abydos Cartouche'
+    Items:
+      GateObjects:
+        Lore: 
+          - 'Welt: '
+          - 'Position:'
+          - 'Netzwerk: '
+          - 'Besitzer: '
+      NextPage: 'Nächste Seite'
+      PreviousPage: 'Vorherige Seite'
+  
+  AddressAssignGUI:
+    GUIName: '&5Address_Zuweisungs_GUI'
+    Items:
+      Address-not-allowed: 'UNGÜLTIGE ADRESSE'
+      Clear: 'Löschen'
+      Randomize: 'Zufällig'
+      CreateGate: 'GATE ERSTELLEN!'
+  
+  DHD_GUI:
+    GUIName: '&5DHD'
+    Items:
+      Dial:
+        Name: 'WÄHLEN'
+        Lore: 'Aktiviert das Gate'
+      Clear_Dial:
+        Name: 'Löschen'
+        Lore: 'Löscht die gewählte Adresse'
+      InfoSign1: '&6Nutze das Tastenfeld in der Mitte zum wählen'
+      InfoSign2: '&6Nutze den Roten Knopf zum aktivieren'
+      InfoSign3: '&6Ein Gate der Antiker'
+      GateLocked: 'GATE IST GESPERRT'
+      QuickDial: 'Schnellwahl'
+      
+  EditAllGatesGUI:
+    GUIName: '&5Bearbeitung_Gateliste_GUI'
+    Items:
+      Save: '&6Speichere Gateliste'
+      Load: '&6Lade Gateliste'
+      Repair: '&6Repariere alle Gates'
+      Remove_Armorstands:
+        Name: '&6Entferne alle Gates'
+        Lore: 'Entfernt alle Gate armor stands'
+      Clear_Gate_List:
+        Name: '&6Gateliste löschen'
+        Lore1: 'Entfernt armor stands'
+        Lore2: 'und Entfernt das Gate aus dem GateNetzwerk'
+      Cut_all_gate_connections: '&6Schließe alle aktiven Gates'
+
+  EditGateGUI:
+    GUIName: '&5Bearbeite_Gate_GUI '
+    Items:
+      Unlock: '&6Entsperren'
+      Lock: '&6Sperren'
+      Repair: '&6Gate reparieren'
+      Remove_Event_Horizon:
+        Name: '&6Ereignishorizont entfernen'
+        Lore1: 'Entfernt armor stands'
+        Lore2: 'und schließt die Verbindung'
+      Remove_Ring:
+        Name: '&6Entferne Ring'
+        Lore: 'Enfternt armor stands'
+      Remove_Gate:
+        Name: '&6Entferne Gate'
+        Lore1: 'Entfernt alle armor stands'
+        Lore2: 'und Entfernt das Gate aus dem GateNetzwerk'
+      Teleport_to_Gate: '&6Transpositioniert dich zum Gate'
+      Open: '&6Öffentlich'
+      Private: '&6Privat'
+      Secundary_Network: '&6Secundäres Netzwerk'
+      Gate_Material: '&6Gate Material'
+      Set_Gate_Material: '&6Setze Gate Material'
+      Ring_Material: '&6Ring Material'
+      Chevron_tip: '&6Chevron Spitze'
+      Chevron_frame: '&6Chevron Ramen'
+      Chevron_Light_off: '&6Chevron Licht aus'
+      Chevron_Light_on: '&6Chevron Licht an'
+      Horizon_Material: '&6Ereignishorizont Material'
+  
+  GateCrystalGUI:
+    GUIName: '&5GateKristalGUI '
+    Items:
+      DHDCrystal:
+        Name: '&5DHDKristal'
+        Lore: '&6GateAdresse:'
+  
+  NetworkAssignGUI:
+    Primary: 'HauptNetzwerk'
+    Secundary: '6Secundäres Netzwerk'
+    GUIName: '_ZuweisungsGUI'
+    Items:
+      Network: 'Netzwerk:'
+      Next_Page: 'Nächste Seite'
+      Previous_Page: 'Vorherige Seite'
+   
+  QuickDialGUI:
+    GUIName: '&5SchnellWahlGUI'
+    Items:
+      GateObjects:
+        Lore: 
+          - 'Welt: '
+          - 'Position:'
+          - 'Netzwerk: '
+          - 'Besitzer: '
+      Next_Page: 'Nächste Seite'
+      Previous_Page: 'Vorherige Seite'
+    
+  GateTools:
+    GUIName: '&5GateWerkzeugeGUI'
+    Items:
+      CreateTool:
+        Name: '&5GateErstellungs_Tool'
+        Lore: '&fErstellt Gates'
+      EditTool:
+        Name: '&5GateBearbetungs_Tool'
+        Lore: '&fBearbeitet Gates'
+      AbydosCartouche:
+        Name: '&5Abydos Cartouche'
+        Lore: '&fListet alle bekannten Gates'
+        
+PlayerMessages:
+  FromGUI:
+    AddressAssignGUI:
+      Message1: '&2Gate Erstellt!'
+      Message2: '&6Nutze den Kristal um &9das Gate &6mit einem &cDHD &6zu verbinden'
+      Message3: '&cHinweis: &fWenn du das &cDHD &fverschieben willst, nutze das &cGateErstellungs_Tool &fnahe an einem Gate um dessen Kristall erneute zu bekommen.'
+      Message4: '&cHinweis: &fPermanente Gates können in der &6BearbeitungsGUI &centfernt &fwerden'
+    
+    DHD_GUI:
+      Message1: '&cDieses Gate ist [Privat]'
+      Message2: '&6Nutze das Tastenfeld in der Mitte zum Wählen.&6 Jede Taste steht für ein Symbol der &aZiel-&6Adresse.'
+      Message3: '&6Die Adresse dieses Gates wird, in der DHD_GUI Überschrift angezeigt'
+      Message4: '&6Das Gate kann nur Aktiert werden, wenn &calle 7 Symbole&6 der Ziel-Adresse eingegeben wurden.'
+      Message5: '&6Die Antiker waren eine Mächtige Zivilation, welche die Gates bauten. Möglicherweise werden sie eines Tages zurückkehren.'
+      Message6: '&cEin Gate kann sich nicht selbst anwählen!'
+      Message7_1: '&cAdresse ['
+      Message7_2: '] existiert nicht!'
+      Message8: '&6Die Verbindung wurde abgebrochen'
+      Message9: '&cDie Verbindung konnte nicht abgebrochen werden'
+      Message10: '&cDieses Gate ist [Privat]'
+      Message11: '&cDas angewählte Gate ist derzeit nicht verfügbar!'
+      Message12: '&cDie Gates sind nicht im gelichen Netzwerk!'
+      
+    EditAllGatesGUI:
+      Message1: 'GateListe wurde geladen!'
+      Message2_1: 'Gate: &6'
+      Message2_2: '&f wurde repariert'
+      Message3: 'Alle Gates wurden entfernt!'
+      Message4: 'Du kannst sie mit der &6Repariere Gate&f Funktion der BearbeiteGateGUI oder &6Repariere alle Gates &f Funktion der BearbeiteGateListeGUI reparieren'    
+      Message5: 'Alle aktiven Gates Verbindungen wurden geschlossen!'
+      Message6: 'Alle Gates wurden aus der &6Abydos cartouche!&f entfernt'
+      
+    EditGateGUI:
+      Message1: '&cGate konnte nicht gefunden werden!'
+      Message2_1: 'Gate: &6'
+      Message2_2: '&f wurde entsperrt'
+      Message3_1: 'Gate: &6'
+      Message3_2: '&f wurde gesperrt' 
+      Message4_1: 'Gate: &6'
+      Message4_2: '&f wurde repariert' 
+      Message5_1: 'Gate: &6'
+      Message5_2: '&f wurde entfernt. Es kann wiederhergestellt werden mit &6Repariere Gate&f in der BearbeiteGateGUI oder &6Repariere alle Gates &f in der BearbeiteGateListeGUI'   
+      Message6_1: 'Gate: &6'
+      Message6_2: '&f wurde vom Netzwerk entfernt'
+      Message7_1: 'Gate: &6'
+      Message7_2: '&f ist jetzt [Privat]' 
+      Message8_1: 'Gate: &6'
+      Message8_2: '&f ist jetzt [Öffentlich]'
+      Message9_1: 'Gate: &6'
+      Message9_2: '&f wurde gespeichert'
+     
+    QuickDialGUI:
+      Message1_1: '&cAdresse ['
+      Message1_2: '] existiert nicht!'
+      Message2: '&cDieses Gate ist [Privat]'
+      Message3: '&cDieses Gate ist bereits aktiv'
+      Message4: 'Die Gates sind nicht im gleichen Netzwerk'
+      
+  GlobalText:
+    NoPermission: '&cDu hast keine Berchtigung für diesen Command'
+    NoOwnership: '&cFinger weg ist nicht deins'
+    ConfigReload: 'Config aktualisiert!'
+    GateNear: '&cDas nächste Gate ist zu nah!'
+    GateAmmountCap: 'Du hast deine maximale Anzahl an Gates platziert!'
+    LinkGate_1: '&6Gate &9'
+    LinkGate_2: '&6 wurde mit dem DHD verbunden'
+    GateNotFound_1: '&cDas Gate &6'
+    GateNotFound_2: '&c ist nicht mehr in&6 der Abydos Cartouche'
+    WrongDHDMaterial: '&cDas &6Gate Kristal&c kann nur benutzt werden auf &6'
+    NoGatesNearBy: '&cKeine Gates in der Nähe!'
