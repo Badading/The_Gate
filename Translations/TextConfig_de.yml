@@ -153,7 +153,7 @@ PlayerMessages:
       Message2_1: 'Gate: %6'
       Message2_2: '%f wurde repariert'
       Message3: 'Alle Gates wurden entfernt!'
-      Message4: 'Du kannst sie mit der %6Repariere Gate%f Funktion der EearbeiteGateGUI oder %6Repariere alle Gates %f Funktion der BearbeiteGateListeGUI reparieren'    
+      Message4: 'Du kannst sie mit der %6Repariere Gate%f Funktion der BearbeiteGateGUI oder %6Repariere alle Gates %f Funktion der BearbeiteGateListeGUI reparieren'    
       Message5: 'Alle aktiven Gates Verbindungen wurden geschlossen!'
       Message6: 'Alle Gates wurden aus der %6Abydos cartouche!%f entfernt'
       
