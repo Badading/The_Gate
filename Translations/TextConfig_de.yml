@@ -33,8 +33,8 @@ GUIS:
       Clear_Dial:
         Name: 'Löschen'
         Lore: 'Löscht die gewählte Adresse'
-      InfoSign1: '%6Nutze das Tastenfeld in der Mitte zum Wählen'
-      InfoSign2: '%6Nutze den Roten Knopf zum Aktivieren'
+      InfoSign1: '%6Nutze das Tastenfeld in der Mitte zum wählen'
+      InfoSign2: '%6Nutze den Roten Knopf zum aktivieren'
       InfoSign3: '%6Ein Gate der Antiker'
       GateLocked: 'GATE IST GESPERRT'
       QuickDial: 'Schnellwahl'
@@ -42,7 +42,7 @@ GUIS:
   EditAllGatesGUI:
     GUIName: '%5Bearbeitung_Gateliste_GUI'
     Items:
-      Save: '%6Speicher Gateliste'
+      Save: '%6Speichere Gateliste'
       Load: '%6Lade Gateliste'
       Repair: '%6Repariere alle Gates'
       Remove_Armorstands:
@@ -62,14 +62,14 @@ GUIS:
       Repair: '%6Gate reparieren'
       Remove_Event_Horizon:
         Name: '%6Ereignishorizont entfernen'
-        Lore1: 'Entfernt Armor stands'
+        Lore1: 'Entfernt armor stands'
         Lore2: 'und schließt die Verbindung'
       Remove_Ring:
         Name: '%6Entferne Ring'
-        Lore: 'Enfternt Armor stands'
+        Lore: 'Enfternt armor stands'
       Remove_Gate:
         Name: '%6Entferne Gate'
-        Lore1: 'Entfernt alle Armor stands'
+        Lore1: 'Entfernt alle armor stands'
         Lore2: 'und Entfernt das Gate aus dem GateNetzwerk'
       Teleport_to_Gate: '%6Transpositioniert dich zum Gate'
       Open: '%6Öffentlich'
@@ -92,7 +92,7 @@ GUIS:
         Lore: '%6GateAdresse:'
   
   NetworkAssignGUI:
-    Primary: 'HaupNetzwerk'
+    Primary: 'HauptNetzwerk'
     Secundary: '6Secundäres Netzwerk'
     GUIName: '_ZuweisungsGUI'
     Items:
@@ -113,7 +113,7 @@ GUIS:
       Previous_Page: 'Vorherige Seite'
     
   GateTools:
-    GUIName: '%5GateToolsGUI'
+    GUIName: '%5GateWerkzeugeGUI'
     Items:
       CreateTool:
         Name: '%5GateErstellungs_Tool'
@@ -136,15 +136,15 @@ PlayerMessages:
     DHD_GUI:
       Message1: '%cDieses Gate ist [Privat]'
       Message2: '%6Nutze das Tastenfeld in der Mitte zum Wählen.%6 Jede Taste steht für ein Symbol der %aZiel-%6Adresse.'
-      Message3: '%6Die Adresse dieses Gates wird, in DHD_GUI Überschrift angezeigt'
+      Message3: '%6Die Adresse dieses Gates wird, in der DHD_GUI Überschrift angezeigt'
       Message4: '%6Das Gate kann nur Aktiert werden, wenn %calle 7 Symbole%6 der Ziel-Adresse eingegeben wurden.'
-      Message5: '%6Die Antiker waren eine Mächtige zivilation, weleche die Gates bauten. Möglicherweise werden sie eines Tages zurückkehren.'
-      Message6: '%cDu kannst dich nicht selbst anwählen!'
+      Message5: '%6Die Antiker waren eine Mächtige Zivilation, welche die Gates bauten. Möglicherweise werden sie eines Tages zurückkehren.'
+      Message6: '%cEin Gate kann sich nicht selbst anwählen!'
       Message7_1: '%cAdresse ['
       Message7_2: '] existiert nicht!'
       Message8: '%6Die Verbindung wurde abgebrochen'
       Message9: '%cDie Verbindung konnte nicht abgebrochen werden'
-      Message10: '%cDieses Gate ist [Private]'
+      Message10: '%cDieses Gate ist [Privat]'
       Message11: '%cDas angewählte Gate ist derzeit nicht verfügbar!'
       Message12: '%cDie Gates sind nicht im gelichen Netzwerk!'
       
